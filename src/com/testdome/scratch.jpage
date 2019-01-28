@@ -1,0 +1,33 @@
+return "aslkdfja <folder name=\"albert\" ".indexOf("folder name=\"", 50);(int) -1
+
+String s = "{}albert";
+return s.replaceAll("\\{\\}", "");(java.lang.String) albert
+
+String s = "[]bobby";
+return s.replaceAll("\\[]", "");(java.lang.String) bobby
+
+String s = "()cloyd";
+return s.replaceAll("\\(\\)", "");(java.lang.String) cloyd
+
+String s = "}xxx";
+String firstChar = s.substring(0, 1);
+boolean balance = true;
+switch(firstChar) {
+    case "{":
+    case "[":
+    case "(":
+        break;
+    default:
+        balance = false; 
+        s = "";
+        break;
+}
+return balance;(boolean) false
+java.util.Stack stack = new java.util.Stack();
+stack.push("a");
+stack.push("b");
+stack.push("c");
+return stack.peek();
+
+java.util.ArrayList list = new java.util.ArrayList();
+list.toArray();
