@@ -30,7 +30,7 @@ public class Base7 {
                 number = number / 7;
                 result.add(remainder);
             }
-            remainder = 0;
+//            remainder = 0;
         }
         for (int i = result.size()-1; i >=0 ; i--) {
             String a = (String) base7.get(result.get(i));

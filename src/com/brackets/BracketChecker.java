@@ -5,7 +5,8 @@ import java.util.Stack;
 public class BracketChecker {
 
 	public static void main(String... args) {
-		String brackets = args[0];
+//		String brackets = args[0];
+		String brackets = "({[]})";
 		boolean validBrackets = isBracketValid(brackets);
 		System.out.println("out: " + validBrackets);
 
